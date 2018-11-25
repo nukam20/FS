@@ -1,0 +1,16 @@
+body{
+  background-image: linear-gradient(to right,  #F2FCF5,rgba(241, 253, 244, 0) 100%);
+  font-family: 'Hind', sans-serif;
+}
+.login{
+  margin-right: 30px;
+}
+.signup-button{
+  background-color: #529E34;
+  color: white;
+  border-radius: 5px;
+  width:121px;
+}
+.signup-btn-content{
+  color:white !important;
+}

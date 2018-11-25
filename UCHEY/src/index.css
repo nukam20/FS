@@ -1,0 +1,167 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E5E5E5 !important;
+}*/
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+ 	flex: 1 0 auto !important;
+	min-height: 100vh;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+
+}
+
+img{
+	width: 50px;
+}
+
+
+
+.container a{
+	color: black;
+}
+
+.container ul{
+	margin-top: 5px;
+}
+.card-content{
+	padding: 20px;
+}
+/* Techboard styling */
+.board-title{
+	text-align: center;
+	font-style: bold;
+  font-size: 41px;
+}
+.board-details{
+	text-align: center;
+}
+.boardBtn{
+	display: inline-flex;
+justify-content: center;
+}
+.learn-more{
+	background-color:  #529E34;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 20px;
+	width: 163px;
+}
+.start-building{
+	background-color:  white;
+	color: #529E34;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 20px;
+	width: 163px;
+}
+.left{
+	margin-left: 80px;
+}
+
+.Board{
+	margin-top: 200px;
+}
+
+
+.boardBtn div{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.boardBtn div button{
+	width: 100%;
+}
+#root > div > main > div > div.container-fluid > div > div:nth-child(2) > div{
+	margin-left: 50px;
+}
+.apiDespSec{
+	margin-top:  200px;
+	overflow: hidden;
+}
+
+.apiDespSec div p{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+/* customer description stylin */
+.custDesc{
+	margin-top: 60px;
+}
+.img-desc{
+	line-height: 50px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 27px;
+}
+/* STYLING FOR NIBBS PAGE */
+.aboutNibbs{
+	margin-top: 100px;
+}
+.aboutNibbs-title{
+	font-style: Bold;
+	font-size: 41px;
+}
+.aboutNibbs-text{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.cardNibbsPage{
+	height: 267px;
+	margin-bottom: 20px;
+}
+.cardNibbsPageTitle{
+	font-weight: bold;
+	font-size: 21px;
+}
+#root > div > main > div > div:nth-child(2) > div.container-fluid.p-5 > div > div > div:nth-child(2) > div{
+	margin-left: 50px;
+}
+.NibbsPageSectionTwoWrap{
+	margin-left: 100px;
+}
+/* media query */
+
+@media screen and (max-width:768px){
+	.boardBtn{
+		display: flex;
+		font-size: 12px;
+	}
+.readyBtn{
+	font-size: 12px;
+}
+/* media query for  the ready to get started row */
+#root > div > main > div > div.container-fluid > div{
+	padding-left: 0 !important;
+}
+#root > div > main > div > div.container-fluid > div > div:nth-child(2) > div{
+	margin-left: 0!important;
+	font-size: 10px;
+}
+#root > div > main > div > div.container-fluid.readyTogetStarted > div > div:nth-child(2) > div > div > div:nth-child(1) > button{
+	font-size: 10px;
+}
+#root > div > main > div > div.container-fluid.readyTogetStarted > div > div:nth-child(2) > div > div > div:nth-child(2) > button{
+	font-size: 10px;
+}
+#root > div > main > div > div.container-fluid > div > div:nth-child(1) > div{
+	text-align: center;
+}
+/* media query for  the ready to get started row ends here */
+}
+/* MEDIA QUERY FOR NIBBS PAGE */
+@media screen and (max-width:768px){
+	
+}
